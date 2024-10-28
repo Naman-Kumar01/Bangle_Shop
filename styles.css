@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f5a5b3;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background-image: linear-gradient(to right, #ffccd5, #f8b4c4);
+  color: #fff;
+}
+
+.cta-button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background-color: #ff6f91;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ff3b5f;
+}
+
+/* Product Slider */
+.product-slider {
+  padding: 2rem;
+  background-color: #fdf5f5;
+}
+
+.slider-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+}
+
+.product-card {
+  min-width: 250px;
+  border: 1px solid #eee;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Testimonials */
+.testimonials {
+  background-color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonial-card {
+  margin-bottom: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 2rem;
+  background-color: #ffe4e6;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+/* Chat Popup */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.send-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #ff6f91;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f5a5b3;
+  color: white;
+}
